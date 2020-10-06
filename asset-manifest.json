@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fun-fac-web/static/css/main.135656bf.chunk.css",
-    "main.js": "/fun-fac-web/static/js/main.0cfdc032.chunk.js",
-    "main.js.map": "/fun-fac-web/static/js/main.0cfdc032.chunk.js.map",
+    "main.js": "/fun-fac-web/static/js/main.2fef4eaf.chunk.js",
+    "main.js.map": "/fun-fac-web/static/js/main.2fef4eaf.chunk.js.map",
     "runtime-main.js": "/fun-fac-web/static/js/runtime-main.27179b96.js",
     "runtime-main.js.map": "/fun-fac-web/static/js/runtime-main.27179b96.js.map",
     "static/js/2.bbc04556.chunk.js": "/fun-fac-web/static/js/2.bbc04556.chunk.js",
     "static/js/2.bbc04556.chunk.js.map": "/fun-fac-web/static/js/2.bbc04556.chunk.js.map",
     "index.html": "/fun-fac-web/index.html",
-    "precache-manifest.e6f435f5640102f29319b1e059dd9b7e.js": "/fun-fac-web/precache-manifest.e6f435f5640102f29319b1e059dd9b7e.js",
+    "precache-manifest.c36d7a06b31f334ec3dc1ecb18140e71.js": "/fun-fac-web/precache-manifest.c36d7a06b31f334ec3dc1ecb18140e71.js",
     "service-worker.js": "/fun-fac-web/service-worker.js",
     "static/css/main.135656bf.chunk.css.map": "/fun-fac-web/static/css/main.135656bf.chunk.css.map",
     "static/js/2.bbc04556.chunk.js.LICENSE.txt": "/fun-fac-web/static/js/2.bbc04556.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.27179b96.js",
     "static/js/2.bbc04556.chunk.js",
     "static/css/main.135656bf.chunk.css",
-    "static/js/main.0cfdc032.chunk.js"
+    "static/js/main.2fef4eaf.chunk.js"
   ]
 }
