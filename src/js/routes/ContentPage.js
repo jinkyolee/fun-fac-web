@@ -2,6 +2,8 @@ import React from "react";
 import Video from "../components/Video";
 
 const ContentPage = () => {
+  document.title = "펀팩 | 콘텐츠";
+
   return (
     <div className="content-container">
       <Video src="https://www.youtube.com/embed/3P1CnWI62Ik" title="서울" />

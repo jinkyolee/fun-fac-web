@@ -5,6 +5,8 @@ import TriggerItem from "../components/TriggerItem";
 import "../../css/routes/CluePage.css";
 
 const CluePage = () => {
+  document.title = "펀팩 | 기록실";
+
   return (
     <div className="image-container">
       <ol>
