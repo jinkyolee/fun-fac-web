@@ -1,25 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "./App.css";
+import Navigation from "./js/components/Navigation";
+import CluePage from "./js/routes/CluePage";
+import ContentPage from "./js/routes/ContentPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navigation />
+      <Switch>
+        <Route path="/clue-page" component={CluePage} />
+        <Route path="/content" component={ContentPage} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 

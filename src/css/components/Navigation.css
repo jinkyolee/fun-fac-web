@@ -1,0 +1,37 @@
+.nav-bar {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+}
+
+.tab-item {
+  padding: 5px 10px;
+  color: rgba(30, 30, 30, 0.7);
+  text-decoration: none;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 17.5px;
+}
+
+.tab-item:hover {
+  color: rgba(30, 30, 30, 0.9);
+}
+
+.selected {
+  color: rgba(30, 30, 30, 1) !important;
+}
+
+.logo {
+  height: 50px;
+  width: 125px;
+  object-fit: contain;
+}
+
+.button-container {
+  margin-right: 10px;
+}
