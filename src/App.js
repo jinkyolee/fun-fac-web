@@ -13,9 +13,9 @@ function App() {
       <Navigation />
       <ScrollToTop />
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/clue-page" component={CluePage} />
-        <Route path="/content" component={ContentPage} />
+        <Route path="./" exact component={Home} />
+        <Route path=",/clue-page" component={CluePage} />
+        <Route path="./content" component={ContentPage} />
       </Switch>
     </BrowserRouter>
   );
