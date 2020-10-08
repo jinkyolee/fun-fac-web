@@ -40,26 +40,26 @@ const Navigation = () => {
 
   return (
     <nav className="nav-bar">
-      <Link to="./" onClick={() => setCurrentTab(0)}>
+      <Link to={`/`} onClick={() => setCurrentTab(0)}>
         <img src={logo} className="logo" alt="" />
       </Link>
       <div className="button-container">
-        <Link to="./" className="tab-item">
+        <Link to={`/`} className="tab-item">
           게임 소개
         </Link>
-        <Link to="./team-intro" className="tab-item">
+        <Link to={`/team-intro`} className="tab-item">
           팀 소개
         </Link>
-        <Link to="./open-forum" className="tab-item">
+        <Link to={`/open-forum`} className="tab-item">
           자유게시판
         </Link>
-        <Link to="./event" className="tab-item">
+        <Link to={`/event`} className="tab-item">
           이벤트
         </Link>
-        <Link to="./content" className="tab-item">
+        <Link to={`/content`} className="tab-item">
           콘텐츠
         </Link>
-        <Link to="./clue-page" className="tab-item">
+        <Link to={`/clue-page`} className="tab-item">
           기록실
         </Link>
       </div>
